@@ -1,15 +1,14 @@
 SOL_PROJECT_METADATA = {
     "name": "2cool4skull",
     "symbol": "2c4s",
-    "description": "Little skullinos own your ass",
+    "description": "Little skullinos shine in the dark!",
     "seller_fee_basis_points": 1000,  # 10%
     "external_url": "https://2cool4skull.com/",  # remember to add trailing slash
     "creators": [
-        {"address": "N4f6zftYsuu4yT7icsjLwh4i6pB1zvvKbseHj2NmSQw", "share": 100}
+        {"address": "<your_wallet_address>", "share": 100}
     ],
     # "collection": {"name": "2cool4skull", "family": "2cool4skull"}
 }
-
 
 # order your layers from background to foreground
 LAYER_ORDER = {
@@ -21,72 +20,6 @@ LAYER_ORDER = {
     "Layer6": "Eyes",
     "Layer7": "Head accessory",
 }
-
-# define here the items that cannot occur together
-EXCLUDE_COMBINATIONS = [
-    {
-        "Head accessory": {
-            "item": "Tengu mask",
-            "with": [
-                {"Mouth": "Rainbow bandana"},
-                {"Mouth": "Rainbow"},
-                {"Mouth": "Clouds bandana"},
-                {"Mouth": "Cigarette"},
-                {"Eyes": "HP"},
-                {"Eyes": "Laser rainbow"},
-                {"Eyes": "Laser red"},
-                {"Eyes": "Flames"},
-                {"Eyes": "Stars"},
-                {"Eyes": "3d"},
-                {"Eyes": "Sunglasses"},
-            ],
-        },
-        "Head accessory": {
-            "item": "Vader mask",
-            "with": [
-                {"Mouth": "Rainbow bandana"},
-                {"Mouth": "Rainbow"},
-                {"Mouth": "Clouds bandana"},
-                {"Mouth": "Cigarette"},
-                {"Eyes": "HP"},
-                {"Eyes": "Laser rainbow"},
-                {"Eyes": "Laser red"},
-                {"Eyes": "Flames"},
-                {"Eyes": "Stars"},
-                {"Eyes": "3d"},
-                {"Eyes": "Sunglasses"},
-            ],
-        },
-        "Head accessory": {
-            "item": "Gas mask",
-            "with": [
-                {"Mouth": "Rainbow bandana"},
-                {"Mouth": "Rainbow"},
-                {"Mouth": "Clouds bandana"},
-                {"Mouth": "Cigarette"},
-                {"Eyes": "HP"},
-                {"Eyes": "Laser rainbow"},
-                {"Eyes": "Laser red"},
-                {"Eyes": "Flames"},
-                {"Eyes": "Stars"},
-                {"Eyes": "3d"},
-                {"Eyes": "Sunglasses"},
-            ],
-        },
-        "Eyes": {
-            "item": "Ciclop",
-            "with": [{"Head accessory": "Karate band"}, {"Head accessory": "DBZ"}],
-        },
-        "Eyes": {
-            "item": "Triclop",
-            "with": [{"Head accessory": "Karate band"}, {"Head accessory": "DBZ"}],
-        },
-        "Eyes": {
-            "item": "Flames",
-            "with": [{"Head accessory": "HP"}, {"Head accessory": "DBZ"}],
-        },
-    }
-]
 
 # define here the configuration of our project
 SETUP = {
@@ -363,3 +296,70 @@ SETUP = {
         },
     },
 }
+
+
+# define here the items that cannot occur together
+EXCLUDE_COMBINATIONS = [
+    {
+        "Head accessory": {
+            "item": "Tengu mask",
+            "with": [
+                {"Mouth": "Rainbow bandana"},
+                {"Mouth": "Rainbow"},
+                {"Mouth": "Clouds bandana"},
+                {"Mouth": "Cigarette"},
+                {"Eyes": "HP"},
+                {"Eyes": "Laser rainbow"},
+                {"Eyes": "Laser red"},
+                {"Eyes": "Flames"},
+                {"Eyes": "Stars"},
+                {"Eyes": "3d"},
+                {"Eyes": "Sunglasses"},
+            ],
+        },
+        "Head accessory": {
+            "item": "Vader mask",
+            "with": [
+                {"Mouth": "Rainbow bandana"},
+                {"Mouth": "Rainbow"},
+                {"Mouth": "Clouds bandana"},
+                {"Mouth": "Cigarette"},
+                {"Eyes": "HP"},
+                {"Eyes": "Laser rainbow"},
+                {"Eyes": "Laser red"},
+                {"Eyes": "Flames"},
+                {"Eyes": "Stars"},
+                {"Eyes": "3d"},
+                {"Eyes": "Sunglasses"},
+            ],
+        },
+        "Head accessory": {
+            "item": "Gas mask",
+            "with": [
+                {"Mouth": "Rainbow bandana"},
+                {"Mouth": "Rainbow"},
+                {"Mouth": "Clouds bandana"},
+                {"Mouth": "Cigarette"},
+                {"Eyes": "HP"},
+                {"Eyes": "Laser rainbow"},
+                {"Eyes": "Laser red"},
+                {"Eyes": "Flames"},
+                {"Eyes": "Stars"},
+                {"Eyes": "3d"},
+                {"Eyes": "Sunglasses"},
+            ],
+        },
+        "Eyes": {
+            "item": "Ciclop",
+            "with": [{"Head accessory": "Karate band"}, {"Head accessory": "DBZ"}],
+        },
+        "Eyes": {
+            "item": "Triclop",
+            "with": [{"Head accessory": "Karate band"}, {"Head accessory": "DBZ"}],
+        },
+        "Eyes": {
+            "item": "Flames",
+            "with": [{"Head accessory": "HP"}, {"Head accessory": "DBZ"}],
+        },
+    }
+]
