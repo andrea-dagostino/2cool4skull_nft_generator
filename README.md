@@ -10,6 +10,17 @@ With it, you'll easily be able to:
 - create metadata for the Solana network
 - create rarity reports
 
+# Installation
+
+Simply run in your Python 3.7+ interpreter
+
+`git clone https://github.com/andrea-dagostino/2cool4skull_nft_generator.git`
+
+In the project directory, run
+`pip install -r requirements.txt`
+
+You only need Pillow installed, version 9.0.1. All other libs used belong to the standard Python lib.
+
 # How does it work?
 
 The first step is to create a `layers` folder in root. In here, drop in your layers that contain your .png files.
@@ -149,10 +160,6 @@ Rarirt reports give you information on how classes and items are distributed in 
 `rarity_report.json` provides information on class and item distribution.
 
 _these files' names will change in later releases._
-
-# Dependencies
-
-You only need Pillow installed, version 9.0.1. All other libs used belong to the standard Python lib.
 
 # Credits
 
