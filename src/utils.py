@@ -70,6 +70,7 @@ def create_metadata(layers, chosen_items, id):
     metadata["external_url"] = SOL_PROJECT_METADATA["external_url"]
     metadata["attributes"] = attributes
     metadata["properties"] = {
+        "creators": SOL_PROJECT_METADATA["creators"],
         "files": [
             {
                 "uri": str(id) + ".png",
@@ -77,7 +78,6 @@ def create_metadata(layers, chosen_items, id):
             }
         ]
     }
-    metadata["creators"] = SOL_PROJECT_METADATA["creators"]
 
     # save metadata
     # if collection doesn't exist, create it
